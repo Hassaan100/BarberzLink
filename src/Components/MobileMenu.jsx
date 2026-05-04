@@ -53,15 +53,18 @@ export function MobileMenu() {
                 About
               </li>{" "}
             </Link>
-            <li
-              className="relative  cursor-pointer 
+            <Link to={"/support"}>
+              {" "}
+              <li
+                className="relative  cursor-pointer 
   before:content-[''] before:absolute before:left-0 before:-bottom-1 
   before:h-0.5 before:w-0   before:bg-amber-400
   before:transition-all before:duration-300 
   hover:before:w-full"
-            >
-              Support
-            </li>
+              >
+                Support
+              </li>{" "}
+            </Link>
             <li className=" cursor-pointer font-normal bg-linear-to-r from-amber-400 to-amber-600  text-white shadow-[0_4px_15px_#ff007a4d] p-3 rounded-full px-10">
               Get Started
             </li>
