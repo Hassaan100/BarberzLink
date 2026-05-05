@@ -7,6 +7,7 @@ import WhyBarberzLink from "./WhyBarberzLink";
 import SMSConsent from "./SMSConsent";
 import ReadyToElevate from "./ReadyToElevate";
 import WhatBarberz from "./WhatBarberz";
+import DownloadApp from "./DownloadApp";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <HeroSection />
       <WhatBarberz />
       <WhoItsFor />
+      <DownloadApp />
       <HowItWorks />
       <WhatYouCanDo />
       <WhyBarberzLink />
