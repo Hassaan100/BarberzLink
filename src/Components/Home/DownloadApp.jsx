@@ -6,10 +6,7 @@ import logo from "@/assets/logo.png";
 
 const DownloadApp = () => {
   return (
-    <section
-      id="download"
-      className="py-24 bg-linear-to-b from-neutral-950 to-black"
-    >
+    <section id="download" className="py-24 bg-black">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -90,7 +87,7 @@ const DownloadApp = () => {
             className="relative"
           >
             <div className="relative max-w-md mx-auto">
-              <div className="relative bg-linear-to-br from-neutral-800 to-neutral-900 rounded-[3rem] p-3 shadow-2xl">
+              <div className="relative bg-gradient-to-br from-neutral-800 to-neutral-900 rounded-[3rem] p-3 shadow-2xl">
                 <div className="bg-black rounded-[2.5rem] overflow-hidden border-8 border-black">
                   <div className="h-6 bg-black relative">
                     <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-black rounded-b-2xl" />
@@ -112,8 +109,8 @@ const DownloadApp = () => {
                 </div>
               </div>
 
-              <div className="absolute -top-6 -right-6 w-32 h-32 bg-linear-to-br from-amber-500 to-amber-600 rounded-full blur-3xl opacity-50" />
-              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-linear-to-br from-blue-500 to-purple-600 rounded-full blur-3xl opacity-50" />
+              <div className="absolute -top-6 -right-6 w-32 h-32 bg-gradient-to-br from-amber-400 to-amber-600 rounded-full blur-3xl opacity-50" />
+              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-gradient-to-br from-amber-400 to-amber-600 rounded-full blur-3xl opacity-50" />
             </div>
           </motion.div>
         </div>
